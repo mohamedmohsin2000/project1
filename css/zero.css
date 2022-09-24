@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.our_work .box {
+   padding: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.zero .box::before{
+    content: attr(data-zero);
+    position: absolute !important;
+    padding-top:30% ;
+    width:100%!important;
+    height:100%!important;
+    background-color: rgba(0, 225, 255, 0.452)!important;
+    transition: 0.3s;
+    transform: translateX(100%)!important;
+    display: flex!important;
+    justify-content: center!important;
+    text-align: center!important;
+    color: white!important;
+}
+.zero .box:hover::before{
+    transform: translateX(0)!important;
+}

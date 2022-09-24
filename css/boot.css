@@ -1,0 +1,82 @@
+
+*{
+    padding: 0px;
+
+}
+
+/* start nav*/
+.navbar{
+    background-color: rgb(244,81,30)!important ;
+    padding: 0px !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+    font-size: 13px;
+    letter-spacing: 5px;
+}
+
+.nav-link {
+    padding: 15px!important;
+}
+.navbar-nav .nav-link:hover {
+    background-color:rgb(255,255,255) !important ;
+    color:  rgb(244,81,30)!important;
+   
+}
+
+/* end nav*/
+
+
+/* start header*/
+.header{
+    font-family: 'Montserrat', sans-serif;
+   font-style: normal!important;
+   background-color: rgb(244,81,30)!important ;
+   color: rgb(255,255,255) !important;
+}
+.input-group .btn{
+    background-color: rgb(224, 107, 101) !important;
+    border: 0px!important;
+}
+.input-group .btn:hover{
+    background-color:rgb(214, 69, 64) !important ;
+    color:  rgb(255,255,255) !important;
+}
+.header h1{
+    font-size: 63px;
+    font-weight: 500;
+   
+}
+.input-group {
+    width: 40% !important;
+    margin: 20px auto;
+}
+/* end header*/
+
+/* start about */
+
+.btn-outline-secondary:hover {
+    color:black;
+    background-color:rgb(189, 186, 186);
+    border-color: #6c757d;
+}
+.icon{
+    font-size: 200px !important;
+    color:  rgb(244,81,30)!important ;
+}
+/* end about */
+
+/* start OUR VALUES */  
+
+
+/* end OUR VALUES */
+
+/* start SERVICES */
+.icon_services{
+    font-size: 50px !important;
+    color:  rgb(244,81,30)!important ;
+}
+/* end SERVICES */
+/* start PORTFOLIO */
+
+/* end PORTFOLIO */

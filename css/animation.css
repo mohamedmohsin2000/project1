@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+.name{
+    animation-name: name_a;
+   animation-duration: 2s;
+  margin-top: 30%;
+   text-align: center;
+    position: relative;
+    justify-content: ;
+}
+
+
+
+
+@keyframes name_a{
+    0%{ 
+        margin-top: 0%;
+        top:0%;
+        left: 45%;
+      position: absolute;
+    }
+   
+   
+    100%{
+        top: 29%;
+        left: 45%;
+        position: absolute;
+       
+    }
+   
+}
