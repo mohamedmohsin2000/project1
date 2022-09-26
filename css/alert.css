@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/* start header */
+
+ /* start alert */
+
+.alert{
+    background-color: rgb(33,99,232);
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+.alert .btn-dark{
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    margin-left: 10px;
+}
+.alert strong{
+    color: white;
+}
+.alert-dismissible .btn-close{
+  
+    padding: 15px;
+}
+ /* end alert */
+ /* start carousel */
+ .carousel{
+    position: initial !important;
+    
+}
+.carousel-inner{
+    position: relative;
+    border-radius:5px;
+}
+.icons{
+    position: absolute !important;
+    right: 25px !important;
+    bottom: 10px;
+
+}
+.span1{
+    position: absolute;
+    bottom:  6px;
+    left: 7px;
+    border-radius: 5px;
+    z-index: 1961;
+    color: white;
+}
+.icons.fa-solid{
+    position: absolute;
+    padding: 20px;
+    color: #595d69 !important;
+    transition: all 0.3s !important;
+}
+
+.carousel-control-next , .carousel-control-prev {
+    position: initial !important;
+    font-size: 15px;
+   width: 25px;
+   height: 25px;
+   border-radius: 50% !important;
+    padding: 10px !important;
+    color: #000 !important;
+   background-color: white ;
+}
+ .carousel-control-prev:hover{
+  
+}
+.icons button:hover {
+    background-color: #2163e8 !important;
+    color: white !important;
+     transition: all 0.5s !important;
+}
+
+.carousel-caption {
+    position: initial;
+    transition: all 0.3s;
+    padding: 10px !important;
+    padding-left: 110px !important;
+  
+    text-align: left !important;
+    background-color:rgb(232,239,253) !important;
+}
+
+ /* end carousel */
+
+
+/* end header */
+/* start footer */
+.text-muted{
+    font-weight: 500;
+} 
+
+.input-group input , button{
+    
+    border-radius: 5px !important;
+}
+#footer a{
+    text-decoration: none !important;
+}
+.badge:hover{
+    color: white !important;
+    }
+    .hov a{
+        position: relative !important;
+    }
+    .hov a::before{
+        content: " " !important;
+        position: absolute !important;
+        left: 0px !important;
+        bottom: -1px !important;
+        width: 0% !important;
+        height: 2px !important;
+        transition: all 0.3s !important;
+        background-color:white !important;
+    }
+    .hov a:hover::before{
+        width: 100% !important;
+        transition: all 0.3s !important;
+    }
+.dercation{
+    position: relative !important;
+    font-weight: 500 !important;
+    transition: 0.3s ease !important
+}
+
+ .dercation::before{
+    content: "" !important;
+    position: absolute !important;
+    left: 0px !important;
+    width: 0% !important;
+    height: 2px !important;
+    bottom: -1px !important;
+    background-color:rgb(151,155,159) !important;
+    transition: 0.3s ease !important;
+}
+.dercation:hover::before{
+    width: 100% !important;
+}
+.hov_b a:hover{
+    color: #1a4fba !important;
+  
+}
+.end{
+    background-color: rgb(18,18,22);
+}
+.end a{
+    position: relative !important;
+
+}
+.end a::before{
+    content: " " !important;
+    position: absolute !important;
+    left: 0px !important;
+    bottom: -1px !important;
+    width: 0% !important;
+    height: 2px !important;
+    transition: all 0.3s !important;
+    background-color: #2163e8 !important;
+}
+.end a:hover::before{
+    width: 100% !important;
+    transition: all 0.3s !important;
+}
+
+/* end footer */
